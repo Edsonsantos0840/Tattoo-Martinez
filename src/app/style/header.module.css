@@ -1,0 +1,186 @@
+@media (min-width:200px) {
+    .nave {
+       display: flex;
+       align-items: flex-end;
+       z-index: 3000;
+       position: fixed;
+       background-image: linear-gradient(to bottom, rgb(169 0 0), rgb(133 0 0), rgb(135 3 3), rgb(191 0 0));
+       box-shadow: 3px 3px 5px black;
+    }
+ 
+    .nave div h1 {
+       font-size: 1.2rem;
+       padding: 2px .2rem;
+    }
+ 
+    .nave .link {
+       display: flex;
+       align-items: flex-end
+    }
+ 
+    .nave .link a {
+       background-color: rgba(240, 248, 255, 0.068);
+       font-size: .7rem;
+       padding: .2rem;
+       margin: .1rem;
+    }
+    .nave .link a:hover {
+       background-color: white;
+       transform: scale(1.2);
+    }
+ 
+ }
+ 
+ @media (min-width:320px) {
+    .nave {
+       min-width: 480px;
+    }
+ 
+    .nave div h1 {
+       font-size: 1.4rem;
+    }
+ 
+    .nave .link {
+       display: flex;
+    }
+ 
+    .nave .link a {
+       font-size: .7rem;
+       padding: .2rem;
+       margin: .1rem;
+    }
+ 
+ }
+ 
+ 
+ @media (min-width:480px) {
+    .nave {
+       min-width: 768px;
+       align-items: flex-end
+    }
+ 
+    .nave div h1 {
+       font-size: 2rem;
+       padding: 2px 2rem;
+    }
+ 
+    .nave .link {
+       display: flex;
+    }
+ 
+    .nave .link a {
+       font-size: .8rem;
+       padding: .2rem;
+       margin: .1rem;
+    }
+ 
+ }
+ 
+ /* aparelhos móveis deitado */
+ @media (max-height:410px) and (min-width:480px) {
+    .nave {
+       min-width: 610px;
+       align-items: flex-end
+    }
+ 
+    .nave div h1 {
+       font-size: 2rem;
+    }
+ 
+    .nave .link {
+       display: flex;
+    }
+ 
+    .nave .link a {
+       font-size: .8rem;
+       padding: .2rem;
+       margin: .1rem;
+    }
+ }
+ 
+ @media (min-width:610px) {
+    .nave {
+       min-width: 768px;
+       align-items: flex-end
+    }
+ 
+    .nave div h1 {
+       font-size: 2.3rem;
+ 
+    }
+ 
+    .nave .link {
+       display: flex;
+    }
+ 
+    .nave .link a {
+       font-size: .9rem;
+       padding: .3rem;
+       margin: .2rem;
+    }
+ 
+ }
+ 
+ 
+ @media (min-width:768px) {
+    .nave {
+       min-width: 900px;
+    }
+ 
+    .nave div h1 {
+       font-size: 2.5rem;
+       padding: 2px 8rem;
+    }
+ 
+    .nave .link {
+       display: flex;
+    }
+ 
+    .nave .link a {
+       font-size: 1rem;
+       padding: .3rem;
+       margin: .2rem;
+    }
+ }
+ 
+ @media (min-width:900px) {
+    .nave {
+       min-width: 1024px;
+    }
+ 
+    .nave div h1 {
+       font-size: 3rem;
+    }
+ 
+    .nave .link {
+       display: flex;
+    }
+ 
+    .nave .link a {
+       font-size: 1rem;
+       padding: .4rem;
+       margin: .3rem;
+    }
+ 
+ }
+ 
+ @media (min-width:1024px) {
+    .nave {
+       min-width: 1700px;
+    }
+ 
+    .nave div h1 {
+       font-size: 3rem;
+       padding: 2px 20rem;
+    }
+ 
+    .nave .link {
+       display: flex;
+    }
+ 
+    .nave .link a {
+       font-size: 1rem;
+       padding: .4rem;
+       margin: .3rem;
+    }
+ }
